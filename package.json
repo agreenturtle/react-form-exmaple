@@ -1,0 +1,27 @@
+{
+  "name": "react-forms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agreenturtle/react-forms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agreenturtle/react-forms/issues"
+  },
+  "homepage": "https://github.com/agreenturtle/react-forms#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "email-validator": "^1.0.4",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "watchify": "^3.7.0"
+  }
+}
